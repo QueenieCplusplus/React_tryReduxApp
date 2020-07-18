@@ -31,3 +31,17 @@ Action
 Store.dispatch() 是 view 發出 action 的唯一方法
 
 Reducer(oldState, action): newState
+
+combineReducers() 整合 reducers
+
+    const combineReducers = reducers => {
+      return (state = {}, action) => {
+        return Object.keys(reducers).reduce(
+          (nextState, key) => {
+            nextState[key] = reducers[key](state[key], action);
+            return nextState;
+          },
+          {} 
+        );
+      };
+    };
