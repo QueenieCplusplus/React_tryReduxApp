@@ -21,3 +21,11 @@ Redux 相當複雜，在如下狀況，可適用：
 
 * 一個視覺對應一狀態
 * 狀態存放在物件中
+
+# Core
+
+Store
+
+Action
+
+Store.dispatch()
