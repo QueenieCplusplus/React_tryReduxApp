@@ -46,7 +46,14 @@ combineReducers() 整合 reducers
       };
     };
     
+ # Flux
  
+ 整個流程就是 reducer 是家庭主婦， action 是煮飯家電工具，state 是食材，輸出新的料理，dispatch() 是熊貓外送，能送鍋具和主婦從電商或電視購物購買來的煮飯家電工具。
+ 
+ store 是冰箱，專門存放尚未料理的食材或是已經完成的美食。
+ 所以，請先把 reducer 視同為主角，reducer(state, action): newState。
+ action 要定義好，主婦一開始就要知道要用哪些工具鍋具。
+ dispatch(action)則是熊包外送載貨工具鍋具來給主婦。
     
  ![flux](http://www.ruanyifeng.com/blogimg/asset/2016/bg2016091802.jpg)
  
