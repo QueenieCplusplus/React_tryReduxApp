@@ -1,7 +1,7 @@
 # React_tryReduxApp
 
 
-7/19, 20 http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_one_basic_usages.html
+7/19, 20 繼續實作
 
 
 Redux 相當複雜，在如下狀況，可適用：
@@ -48,3 +48,5 @@ combineReducers() 整合 reducers
     
     
  ![flux](http://www.ruanyifeng.com/blogimg/asset/2016/bg2016091802.jpg)
+ 
+ http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_one_basic_usages.html
