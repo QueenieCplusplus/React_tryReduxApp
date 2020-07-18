@@ -1,4 +1,12 @@
 # React_tryReduxApp
 
 
-7/19 http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_one_basic_usages.html
+7/19, 20 http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_one_basic_usages.html
+
+
+Redux 相當複雜，在如下狀況，可適用：
+
+* 用戶使用方式複雜
+* 用戶之間可以協作
+* WebSocket
+* View 要從多來源獲取資料
