@@ -29,3 +29,5 @@ Store
 Action
 
 Store.dispatch()
+
+Reducer(state, action)
