@@ -28,6 +28,6 @@ Store
 
 Action
 
-Store.dispatch()
+Store.dispatch() 是 view 發出 action 的唯一方法
 
 Reducer(oldState, action): newState
