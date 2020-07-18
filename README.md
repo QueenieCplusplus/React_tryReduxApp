@@ -30,4 +30,4 @@ Action
 
 Store.dispatch()
 
-Reducer(state, action)
+Reducer(oldState, action): newState
