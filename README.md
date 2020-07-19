@@ -54,7 +54,7 @@ Reducer(oldState, action): newState
     const weGot = actions.reduce(reducer, 0);
 
 
-# Reducer
+# * Reducer
 
 reducer 是一函數，接收當前 state 和 action 作為必選參數，並返回新的 state。
 
@@ -98,7 +98,7 @@ reducer(state, action)
    
 
 
-# Store
+# * Store
 
     // 生成 store
     // 整個應用程式只能擁有一個 store
@@ -137,7 +137,7 @@ reducer(state, action)
 
 
 
-# Action
+# * Action
 
 user 透過 view 改變 state, 無法直接對 state
 
