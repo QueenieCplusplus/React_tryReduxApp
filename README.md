@@ -32,20 +32,7 @@ Store.dispatch() 是 view 發出 action 的唯一方法
 
 Reducer(oldState, action): newState
 
-combineReducers() 整合 reducers
 
-    const combineReducers = reducers => {
-      return (state = {}, action) => {
-        return Object.keys(reducers).reduce(
-          (nextState, key) => {
-            nextState[key] = reducers[key](state[key], action);
-            return nextState;
-          },
-          {} 
-        );
-      };
-    };
-    
  # Flux
  
  整個流程就是 reducer 是家庭主婦， action 是煮飯家電工具，state 是食材，輸出新的料理，dispatch() 是熊貓外送，能送鍋具和主婦從電商或電視購物購買來的煮飯家電工具。
@@ -108,6 +95,7 @@ reducer(state, action)
         type: 'add_on_3times_val',
         payload: 3
     });
+   
 
 
 # Store
@@ -172,6 +160,24 @@ type 代表動作的名稱。
     function addTodo(text){
         //...
     }*/
+    
+    
+# combineReducers()
+
+    combineReducers() 整合 reducers
+
+        const combineReducers = reducers => {
+          return (state = {}, action) => {
+            return Object.keys(reducers).reduce(
+              (nextState, key) => {
+                nextState[key] = reducers[key](state[key], action);
+                return nextState;
+              },
+              {} 
+            );
+          };
+        };
+    
 
 
  # Ref doc
